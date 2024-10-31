@@ -18,8 +18,8 @@ This program simulates real-time arbitrage detection in a trading network with m
 Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/arbitrage-detection.git
-cd arbitrage-detection
+https://github.com/Ysrae1/Arb-Detection-Demo.git
+cd Arb-Detection-Demo
 ```
 
 ### Install Dependencies
@@ -48,11 +48,11 @@ pip install -r requirements.txt
 
 ## Usage
 
-## Usage
-
 Run the main script using Python:
 
+```bash
 python main.py
+```
 
 ### Command-Line Interface
 
@@ -61,6 +61,7 @@ python main.py
 
 ### Example Interaction
 
+```bash
 输入 's' 开始，'e' 退出：s
 开始更新和检测套利机会。
 
@@ -77,6 +78,7 @@ python main.py
 更新受影响的回路耗时：0.012960 秒
 最盈利的回路：(('Asset_2', 'Asset_20'), ('Asset_20', 'Asset_25'), ('Asset_25', 'Asset_23'), ('Asset_23', 'Asset_2'))，盈利：2.712626
 获取最盈利的回路耗时：0.000009 秒
+```
 
 ### Program Output
 
